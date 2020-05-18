@@ -8,6 +8,10 @@
   .logo {
     font-size: $logo-font-size;
     font-family: $logo-font-family;
+
+    img {
+      margin-right: 16px;
+    }
   }
 }
 
