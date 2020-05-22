@@ -195,6 +195,7 @@ Even.toc = function() {
 Even._refactorToc = function(toc) {
   // when headings do not start with `h1`
   const oldTocList = toc.children[0];
+  if (!oldTocList) {return;}
   let newTocList = oldTocList;
   let temp;
   while (newTocList.children.length === 1
